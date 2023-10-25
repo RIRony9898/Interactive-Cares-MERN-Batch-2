@@ -1,0 +1,24 @@
+p {
+  font-family: Helvetica, sans-serif;
+  color: red;
+  font-size: 18px;
+  width: 680px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+ul a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+ul a:hover {
+  background-color: #2b0a0a;
+  color: aqua;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+// scss variables
+$myFont: Helvetica, sans-serif;
+$myColor: red;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+p{
+    font-family: $myFont;
+    color: $myColor;
+    font-size: $myFontSize;
+    width: $myWidth;
+}
+
+//Nesting
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li{
+    display: inline-block;
+  }
+  a{
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    &:hover{
+      background-color: #2b0a0a;
+      color: aqua;
+    }
+  }
+}
