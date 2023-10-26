@@ -1,7 +1,28 @@
 /* Universal Selector */
-* {
-}
+/* * {
+    color: red;
+} */
 /* Tag Selector */
+/* h1{
+    color: blue;
+} */
 /* Class Selector */
+.para{
+    color: rgb(215, 1, 126);
+}
 /* ID Selector */
+#item-1{
+    color: green;
+}
 /* Attribute Selector */
+a[href="https://www.google.com"]{
+    color: yellow;
+}
+
+.grandparent{
+  color: yellow;
+}
+
+.parent{
+  color: green;
+}
