@@ -1,8 +1,8 @@
-//class - 1.2 Basis JS structure and how to show js output
+//class - 2 Basis JS structure and how to show js output
 console.log("Hello World");
 
 
-//class - 1.3 variable & constant in js
+//class - 3 variable & constant in js
 
 //Variable neyar jonno let & var use kora hoy
 let firstName = 'John' //output: John
@@ -21,7 +21,7 @@ const PI = 3.1416
 console.log(PI);
 
 
-//class - 1.4 Naming a variable
+//class - 4 Naming a variable
 
 /*Naming conversion er jonno 4 ta way ase
 1. firstName -This is mostly use - etar nam hocche camelCase
@@ -34,7 +34,7 @@ console.log(TITLE);
 //Varaible er khetre ki ki lkha jay - a-z,_,$.0-9
 
 
-//class - 1.5 Comments in JS
+//class - 5 Comments in JS
 
 //Single Line Comment
 
@@ -45,7 +45,7 @@ Comment
 */
 
 
-//class - 1.6 Understanding Data Types
+//class - 6 Understanding Data Types
 
 /*
 String - 'I am a student'
@@ -56,7 +56,7 @@ Array - ["fruit","vegetables",drinks]
 */
 
 
-//class - 1.7 Data Types in JS
+//class - 7 Data Types in JS
 
 /**
 /**
@@ -90,7 +90,7 @@ atr= 'Raisul Islam Rony'
 //perseInt
 
 
-//class - 1.9 Truthy Value Falsy Value
+//class - 9 Truthy Value Falsy Value
 
 //Falsy Values
 console.log(Boolean(null));
@@ -104,6 +104,11 @@ console.log(Boolean(NaN));
 console.log(Boolean("Hello"));
 console.log(Boolean(123456));
 
+
+//class - 10 Number and Math methods
+/**
+ * Method hocche ek dhoroner fution ja object er sathe atatch thake
+ */
 
 
 
