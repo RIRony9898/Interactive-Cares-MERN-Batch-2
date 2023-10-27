@@ -110,6 +110,8 @@ console.log(Boolean(123456));
  * Method hocche ek dhoroner fution ja object er sathe atatch thake
  */
 
+ 
+
 
 
 
