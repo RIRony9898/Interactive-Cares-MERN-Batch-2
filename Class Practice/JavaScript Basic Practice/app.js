@@ -110,6 +110,10 @@ console.log(Boolean(123456));
  * Method hocche ek dhoroner fution ja object er sathe atatch thake
  */
 
+
+//mathod direct string ke change kore na just value er upor kaj kore ekta output dey property direct change kore.
+//method er sesh e ekta first bracket() boshe jeta property te boshe na
+
  
 
 
