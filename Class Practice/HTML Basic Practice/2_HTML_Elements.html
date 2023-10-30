@@ -4,6 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- style -->
+  <style>
+    .link_btn {
+      background: #000;
+      display: inline-block;
+    }
+    .link_btn > a:link {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+    }
+    .link_btn > a:visited {
+      color: white;
+    }
+    .link_btn > a:hover {
+      background-color: rgb(158, 192, 5);
+      color: rgb(255, 255, 255);
+      padding: 15px 20px;
+    }
+    .link_btn > a:active {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <!-- abbr = abbreviation or acronym -->
@@ -30,6 +53,26 @@
 <map name="image-map">
     <area target="_blank" alt="Beer Head" title="Are you looking for a mountain Beer" href="./1. HTML_Intro.html" coords="160,249,211,251,224,215,215,199,225,183,206,184,185,188,170,187,159,182,147,187" shape="poly">
 </map>
+
+<!-- Link element -->
+  <p>
+    <a class="link"
+      href="https://www.google.com">Google
+    </a>
+  </p>
+
+<abbr title="Youtube">
+  <p>
+    <a class="link"
+      href="https://www.youtube.com">Youtube
+    </a>
+  </p>
+</abbr>
+
+<div class="link_btn">
+  <a href="https://www.google.com">This is a link button</a>
+</div>
+
 
 
 
