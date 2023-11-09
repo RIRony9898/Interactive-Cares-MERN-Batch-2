@@ -224,10 +224,6 @@ switch (weekNumber) {
     console.log("Invalid week number");
 }
 
-
-
-
-
 // 13.Write a program to input month number and print number of days in that month.
 // 14.Write a program to input angles of a triangle and check whether triangle is valid or not.
 // 15.Write a program to input all sides of a triangle and check whether triangle is valid or not.
