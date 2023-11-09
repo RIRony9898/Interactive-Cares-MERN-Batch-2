@@ -1,122 +1,133 @@
-//class - 2 Basis JS structure and how to show js output
-console.log("Hello World");
+// //class - 2 Basis JS structure and how to show js output
+// console.log("Hello World");
 
 
-//class - 3 variable & constant in js
+// //class - 3 variable & constant in js
 
-//Variable neyar jonno let & var use kora hoy
-let firstName = 'John' //output: John
-var lastName = 'Islam'
-var age = '26'
-console.log(firstName);
-console.log(lastName);
-console.log(age);
+// //Variable neyar jonno let & var use kora hoy
+// let firstName = 'John' //output: John
+// var lastName = 'Islam'
+// var age = '26'
+// console.log(firstName);
+// console.log(lastName);
+// console.log(age);
 
-//variable jekono somoy change kora jay
-firstName = 'Raisul'
-console.log(firstName); //output: Raisul
+// //variable jekono somoy change kora jay
+// firstName = 'Raisul'
+// console.log(firstName); //output: Raisul
 
-//constant neyar jonno const use kora hoy
-const PI = 3.1416
-console.log(PI);
-
-
-//class - 4 Naming a variable
-
-/*Naming conversion er jonno 4 ta way ase
-1. firstName -This is mostly use - etar nam hocche camelCase
-2. first_Name -eta php te besi use kora hoy
-3. FirstName -class er nam er khetre erkm vabe lekha hoy
-4. FIRSTNAME -constant lkhar khetre eta use kora hoy*/
-const TITLE = 'I live in Bangladesh'
-console.log(TITLE);
-
-//Varaible er khetre ki ki lkha jay - a-z,_,$.0-9
+// //constant neyar jonno const use kora hoy
+// const PI = 3.1416
+// console.log(PI);
 
 
-//class - 5 Comments in JS
+// //class - 4 Naming a variable
 
-//Single Line Comment
+// /*Naming conversion er jonno 4 ta way ase
+// 1. firstName -This is mostly use - etar nam hocche camelCase
+// 2. first_Name -eta php te besi use kora hoy
+// 3. FirstName -class er nam er khetre erkm vabe lekha hoy
+// 4. FIRSTNAME -constant lkhar khetre eta use kora hoy*/
+// const TITLE = 'I live in Bangladesh'
+// console.log(TITLE);
 
-/*
-Multiple
-Line
-Comment
-*/
-
-
-//class - 6 Understanding Data Types
-
-/*
-String - 'I am a student'
-Number - 26
-Boolean - true/false
-Float - 45.34
-Array - ["fruit","vegetables",drinks]
-*/
+// //Varaible er khetre ki ki lkha jay - a-z,_,$.0-9
 
 
-//class - 7 Data Types in JS
+// //class - 5 Comments in JS
 
-/**
-/**
- * 1. Primitive values
- *  a. String*/
-let str = "Raisul Islam Rony";
-console.log(str);
-console.log(typeof str); //typeof deyar karone bole dicche data ta kon type er
+// //Single Line Comment
 
-/* b. Number
-*  c. Boolean -bool
-*  d. Undefined -und
-*  e. Null
-*/
-let nl = null;
-console.log(typeof nl); //eta js er ekta bug
-/*  f. BigInt
-*  g. Symbol
-
-* 2.Object -uporer 7 ta type chara baki ja thake sb e object ex:array
-* 
-* check: typeof
-*/
-//-----initiate data------
-let atr;
-//-----assign data------
-atr= 'Raisul Islam Rony'
+// /*
+// Multiple
+// Line
+// Comment
+// */
 
 
-//class - 1.8 Implicit Type Coersion
-//perseInt
+// //class - 6 Understanding Data Types
+
+// /*
+// String - 'I am a student'
+// Number - 26
+// Boolean - true/false
+// Float - 45.34
+// Array - ["fruit","vegetables",drinks]
+// */
 
 
-//class - 9 Truthy Value Falsy Value
+// //class - 7 Data Types in JS
 
-//Falsy Values
-console.log(Boolean(null));
-console.log(Boolean(undefined));
-console.log(Boolean(0));
-console.log(Boolean(-0));
-console.log(Boolean(0n));
-console.log(Boolean(NaN));
+// /**
+// /**
+//  * 1. Primitive values
+//  *  a. String*/
+// let str = "Raisul Islam Rony";
+// console.log(str);
+// console.log(typeof str); //typeof deyar karone bole dicche data ta kon type er
 
-//Falsy values gulo chara baki ja kisu ase sb e truthy value
-console.log(Boolean("Hello"));
-console.log(Boolean(123456));
+// /* b. Number
+// *  c. Boolean -bool
+// *  d. Undefined -und
+// *  e. Null
+// */
+// let nl = null;
+// console.log(typeof nl); //eta js er ekta bug
+// /*  f. BigInt
+// *  g. Symbol
+
+// * 2.Object -uporer 7 ta type chara baki ja thake sb e object ex:array
+// * 
+// * check: typeof
+// */
+// //-----initiate data------
+// let atr;
+// //-----assign data------
+// atr= 'Raisul Islam Rony'
 
 
-//class - 10 Number and Math methods
-/**
- * Method hocche ek dhoroner fution ja object er sathe atatch thake
- */
-
-//Difference between method & property
-//mathod direct string ke change kore na just value er upor kaj kore ekta output dey property direct change kore.
-//method er sesh e ekta first bracket() boshe jeta property te boshe na sudhu property er nam dilei hoy
+// //class - 1.8 Implicit Type Coersion
+// //perseInt
 
 
+// //class - 9 Truthy Value Falsy Value
+
+// //Falsy Values
+// console.log(Boolean(null));
+// console.log(Boolean(undefined));
+// console.log(Boolean(0));
+// console.log(Boolean(-0));
+// console.log(Boolean(0n));
+// console.log(Boolean(NaN));
+
+// //Falsy values gulo chara baki ja kisu ase sb e truthy value
+// console.log(Boolean("Hello"));
+// console.log(Boolean(123456));
+
+
+// //class - 10 Number and Math methods
+// /**
+//  * Method hocche ek dhoroner fution ja object er sathe atatch thake
+//  */
+
+// //Difference between method & property
+// //mathod direct string ke change kore na just value er upor kaj kore ekta output dey property direct change kore.
+// //method er sesh e ekta first bracket() boshe jeta property te boshe na sudhu property er nam dilei hoy
+
+// //While loop
+// // while (true) {
+// //   console.log("Hello World");
+// // }
  
+var i = 1;
 
+while (i <= 10) {
+  if (i == 4) {
+    console.log("Value of i is " +i);
+  }
+  console.log(i);
+  i++;
+}
 
 
 
