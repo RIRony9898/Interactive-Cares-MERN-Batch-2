@@ -120,16 +120,21 @@
 // // }
  
 var i = 1;
+var sum = 0;
 
-while (i <= 10) {
-  if (i == 4) {
-    console.log("Value of i is " +i);
-  }
-  console.log(i);
+// while (i <= 10) {
+//   if (i == 4) {
+//     console.log("Value of i is " +i);
+//   }
+//   console.log(i);
+//   i++;
+// }
+
+while (i <= 100) { 
+  sum = sum + i;
   i++;
 }
-
-
+console.log("Sum of 1 to 100 is " + sum);
 
 
 
