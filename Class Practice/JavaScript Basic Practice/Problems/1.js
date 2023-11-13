@@ -256,6 +256,11 @@ switch (weekNumber) {
 // 1. Write a program to print all natural numbers from 1 to n. - using while loop
 // 2. Write a program to print all natural numbers in reverse (from n to 1). - using while loop
 // 3. Write a program to print all alphabets from a to z. - using while loop
+
+
+
+
+
 // 4. Write a program to print all even numbers from 1 to 100. - using while loop
 // 5. Write a program to print all odd number from1 to 100.
 // 6. Write a program to print sum of all even numbers between 1 to n.
