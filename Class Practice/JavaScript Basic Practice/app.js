@@ -119,8 +119,8 @@
 // //   console.log("Hello World");
 // // }
  
-var i = 1;
-var sum = 0;
+// var i = 1;
+// var sum = 0;
 
 // while (i <= 10) {
 //   if (i == 4) {
@@ -130,11 +130,11 @@ var sum = 0;
 //   i++;
 // }
 
-while (i <= 100) { 
-  sum = sum + i;
-  i++;
-}
-console.log("Sum of 1 to 100 is " + sum);
+// while (i <= 100) {   
+//   sum = sum + i;
+//   i++;
+// }
+// console.log("Sum of 1 to 100 is " + sum);
 
 
 
