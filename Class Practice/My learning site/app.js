@@ -58,14 +58,14 @@ let m = 17;
   m += 17; // Increments the value by 17
 }
  
- // Iterating over numbers divisible by 20 from 20 to 200
+// Iterating over numbers divisible by 20 from 20 to 200
  for (let i = 20; i <= 200; i += 20) {
   console.log(i); // Prints the number
- }
+}
  
- // Iterating over numbers divisible by 20 from 20 to 200
+// Iterating over numbers divisible by 20 from 20 to 200
  let n = 20;
  while (n <= 200) {
   console.log(n); // Prints the number
   n += 20; // Increments the value by 20
- }
+}
